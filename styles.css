@@ -1,0 +1,52 @@
+        .content {
+            overflow: hidden;
+            float: left;
+            margin-right: 10px;
+        }
+        body {
+            background-color: #C0F1E3;/* Setting body bsckground color */
+        }
+        
+        .content img {
+            width: 200px; /* Adjusting image size  */
+            height: auto;
+            float: right;
+        }
+
+		header {
+    position: relative;
+    text-align: center;
+    background-color: #f0f0f0; /* Title background color */
+    padding: 20px;
+  }
+  /* CSS for title overlay */
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Title text color */
+    font-size: 64px; /* Title font size */
+  }
+  form div { /* Formatting the contact form */
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {/* adding padding to the form */
+            padding: 20px;
+        }
+        .card {
+        border: 1px solid #000; /* Settiting card  border color */
+        }
